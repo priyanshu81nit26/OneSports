@@ -1,0 +1,104 @@
+{
+
+  "indexes": [
+
+    {
+
+      "collectionGroup": "events",
+
+      "queryScope": "COLLECTION",
+
+      "fields": [
+
+        { "fieldPath": "organizerId", "order": "ASCENDING" },
+
+        { "fieldPath": "startAt", "order": "DESCENDING" }
+
+      ]
+
+    },
+
+    {
+
+      "collectionGroup": "community_updates",
+
+      "queryScope": "COLLECTION",
+
+      "fields": [
+
+        { "fieldPath": "communityId", "order": "ASCENDING" },
+
+        { "fieldPath": "timestamp", "order": "DESCENDING" }
+
+      ]
+
+    },
+
+    {
+
+      "collectionGroup": "activity_feed",
+
+      "queryScope": "COLLECTION",
+
+      "fields": [
+
+        { "fieldPath": "userId", "order": "ASCENDING" },
+
+        { "fieldPath": "timestamp", "order": "DESCENDING" }
+
+      ]
+
+    },
+
+    {
+
+      "collectionGroup": "connection_requests",
+
+      "queryScope": "COLLECTION",
+
+      "fields": [
+
+        { "fieldPath": "toUserId", "order": "ASCENDING" },
+
+        { "fieldPath": "status", "order": "ASCENDING" }
+
+      ]
+
+    },
+
+    {
+
+      "collectionGroup": "connection_requests",
+
+      "queryScope": "COLLECTION",
+
+      "fields": [
+
+        { "fieldPath": "fromUserId", "order": "ASCENDING" },
+
+        { "fieldPath": "status", "order": "ASCENDING" }
+
+      ]
+
+    },
+
+    {
+
+      "collectionGroup": "event_saves",
+
+      "queryScope": "COLLECTION",
+
+      "fields": [
+
+        { "fieldPath": "userId", "order": "ASCENDING" }
+
+      ]
+
+    }
+
+  ],
+
+  "fieldOverrides": []
+
+}
+
